@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"src="script.js"></script>
+    <title>Challenge 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg "src="Logo.png" alt="LogotipoAlura">
+            <h1 class="tittle">Encriptador de mensajes</h1>
+        </div>
+        <div class="left">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="right">
+            <img src="munheco.png" id="imgDer">
+            <h1 id="texto">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" cols="80" >Ingrese el texto a encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copiar()">¡Copiar!</button>
+        </div>
+        <div class="left-button">
+            <p>ATENCION:Solo minusculas y sin acento!</p>
+            <button type="button" id="btn-encriptar" name="button" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" name="button" onclick="desencriptar()">Desencriptar</button>
+
+        </div>
+    </div>  
+    <footer class="url">
+        <div class="icons">
+        <a href="https://www.youtube.com/channel/UCchxkGWtaXwRH-yEFFMhGJQ"><ion-icon name="logo-youtube" ></ion-icon></a>
+        <a href="https://www.instagram.com/rcd94k_pi/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/Richard9419"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+        <h3>Creado por RCD</h3>
+     </footer>
+
+     <script src="script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
